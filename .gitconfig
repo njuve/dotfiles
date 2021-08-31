@@ -1,0 +1,10 @@
+[ghq]
+	root = /Users/shota-narisawa/src
+[user]
+	email = ale.nnn.r@gmail.com
+	name = njuve
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
